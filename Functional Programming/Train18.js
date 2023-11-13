@@ -1,4 +1,4 @@
-// reverses the array from lowest to highest for both alphabets and numbers
+// reverses the array from lowest to highest for both alphabets and numbers ????? uncertain
 
 function reverseAlpha(arr) {
     return arr.sort(function(a, b) {
