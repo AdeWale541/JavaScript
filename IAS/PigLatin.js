@@ -7,7 +7,7 @@
 
 function translatePigLatin(str) {
     let consonantRegex = /^[^aeiou]+/;
-    let myConsonants = str.toLowerCase().match(consonantRegex);
+    let myConsonants = str.toLowerCase().match(consonantRegex);  // .match highlights the characters that fit the specified regex
     return myConsonants !== null
       ? str    
       .toLowerCase()
