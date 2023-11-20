@@ -1,4 +1,5 @@
 // Only change code below this line
+//Getter and Setter
 class Thermostat{
     constructor(fahrenheitTemperature){
       this._fahrenheitTemperature=fahrenheitTemperature;

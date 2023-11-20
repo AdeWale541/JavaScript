@@ -1,4 +1,4 @@
-//Program to filter an initial array/argument by checking elements that have the same property and value as the 2nd argument
+//Program to filter an initial array/argument by checking elements with property s as the 2nd argument
 
 function whatIsInAName(collection, source) {
 
