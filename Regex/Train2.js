@@ -1,9 +1,8 @@
-let humStr = "I'll hum a song";
-let hugStr = "Bear hug";
-let huRegex = /hu./;
-huRegex.test(humStr);
-huRegex.test(hugStr);
+//   i outside the regex handles change in the letter case. It accounts for both lower and upper case
+// | indicates or and accounts for multiple possibilities
 
-if (huRegex.test(humStr)== true){
-    console.log("It is true");
-}
+let myString = "freeCodeCamp";
+let fccRegex = /freecodecamp|fcc/i; 
+let result = fccRegex.test(myString);
+console.log(result)
+console.log(fccRegex.test("FCC"))
